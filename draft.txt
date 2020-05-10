@@ -1,0 +1,145 @@
+--------
+About TRALAHTEK
+Join TralahTek as we build:
+- open source software
+- scalable data pipelines
+- modern web UIs
+- Real-time Payment systems
+- Intelligent IOT smart homes
+--------
+API
+Turn Ideas Into reality Get Started
+Innovate without Compromising
+Use our infrastructure to deliver continuous innovation and bring new ideas to life.
+Get Started.
+
+Everything you need to start building with the TralahTek API.
+--------
+Recent and Upcoming Events
+---------
+Featured Blog Posts
+
+-------
+
+------
+Technology
+* Data Pipelines
+* Data Visualization
+* Machine Learning
+We use the infrastructure of AWS,to scale very quickly in new markets, and to develop products whole lot faster. This in
+turn allows our engineers to divert most of their attention towards building products
+and helping businesses grow.
+----------
+
+
+Teams
+
+Infrastructure
+The Infrastructure team collaborates closely with Data Science to ensure the rest of
+the engineering teams get real-time data without any issues.
+They are respomsible for building the infrastructure that allows data science and other
+teams to do their work efficiently
+
+Data Science
+This team is constantly changing models and the algorithm to account for new incoming data. The work done is high-math based and has a huge scale. The first step of solving a problem is framing it—with this group, the problem is always changing. These problems are typically fun and interesting in nature.
+
+Applications
+The Applications team builds products for both internal and external users—essentially every user-facing product TralahTek produces. They are the only group that is primarily focused on user interaction. This team collaborates with designers and product managers to ensure that everything that is built fits our users’ needs.
+
+Business Intelligence (BI)
+BI is responsible for measuring how well TralahTek is performing for clients. This group ensures that clients have access to high-impact ad inventories. Additionally, the team helps incubate new products by measuring their effectiveness. They analyze the most interesting data sets and come up with insights that optimize our algorithm—curious minds are always welcomed.
+
+Solutions Engineering
+Solutions engineers are the most client-facing team. They work closely with sales (with onboarding and post-launch issues) and customers’ implication teams to solve wide-ranging issues—covering all verticals. They’re time is split between writing code and interacting with customers. This group contains members with very diverse set of backgrounds and is the only team that codes in different techs.
+
+------
+Terms
+Privacy Policy
+Terms of Service
+Contact Sales
+Contact support
+------
+- About TralahTek
+    Brings your physical world online, connect the unconnected.
+    Unlock the promise of IOT
+    While the promise of IoT is alluring, the road to IoT nirvana is plagued with challenges ranging from security risks to complexities spanning hardware, connectivity, and software.
+That's where TralahTek comes in.
+Headquartered in Nirobi, with offices in Machakos, Dar es Salaam, and Kampala.
+And we are supported by a large remote team that works all around the world.
+
+Become part of a team that’s enabling the next generation of the Internet of Things.
+SOLVING PROBLEMS BEFORE THEY HAPPEN
+---------------
+
+-------------
+- Careers
+"We’re focused on solving problems for our customers that no other company has been able
+to solve. The hard work we put in today will have years of impact - that’s truly
+exciting."
+
+* Flexible work environment
+From totally remote to collaborating at HQ or satellite offices, find what works for
+you. Plus you get $500 towards the setup of your personal workspace.
+
+* Comprehensive health plans
+A variety of health care plans to ensure you have access to the coverage you and your
+family need.
+
+* Generous parental leave
+Paid time for maternity and paternity leave. You have the choice to take it all at the
+same time or when you need it most.
+
+* Ongoing learning & development
+$1,000 per year towards your professional development, a monthly mentorship budget,
+and a career path framework defined by you and your manager.
+
+* Flexible PTO
+Thrive at work when you feel your best -- take regular time off in order to recharge.
+Plus a generous holiday schedule throughout the year, local to where you are.
+
+* Phone, internet, commuter benefits
+You’ll receive a $100 monthly allowance towards your home internet or commuter costs.
+You’ll also receive a company phone and data plan to stay connected.
+---------
+RESOURCES
+- Docs
+- Customers
+- TralahTek for Good, Education
+Apply to Join/ Apply Now
+Partner Schools
+Join Community
+- Blog
+
+- Press
+IOT startup TralahTek raises $40M
+Particle Reports Record Year with 156 Percent Revenue Growth in 2018
+
+New Particle Products Reduce Time to Market, Make IoT Devices More Intelligent, Optimize Developer Experience
+
+Particle Expands Board of Directors with Three Strategic Additions
+
+Get latest news from the TralahTek blog
+-------------
+-----------
+Products
+- Cloud::
+	Manage your device fleets from a central interface
+	Seamless Integrations to your business tools
+	Monitor the health of your devices
+- Hardware
+	Developer kits
+	Industrial modules
+		from our hardware store to get started.
+- Pricing
+Starter
+Enterprise
+Custom (contact sales)
+- Store
+Shopify,Login/Signup/Shop Now
+--------------------
+SOLUTIONS
+An all in one Asset Tracking Solution
+Powerful, configurable, and extensible IoT-enabled asset tracking
+Consult an expert Download Solution Guide
+Trusted by innovators around the world
+
