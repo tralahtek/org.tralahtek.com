@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-assets'
+gem 'jekyll-paginate'
+gem 'sprockets',"~> 3.7"
 gem 'maruku'
 gem 'rake'
 gem 'sass'
