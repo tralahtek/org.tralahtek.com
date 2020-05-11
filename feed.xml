@@ -1,6 +1,3 @@
----
-layout: rss-feed
----
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -11,6 +8,7 @@ layout: rss-feed
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
 
     {% for post in site.posts %}
     {% unless post.draft %}
@@ -25,5 +23,5 @@ layout: rss-feed
     {% endunless %}
     {% endfor %}
 
-  </channel> 
+  </channel>
 </rss>

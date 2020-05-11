@@ -1,7 +1,7 @@
 inc:
   # Blog Information
-  title:        "TralahTek Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
+  title:        "TralahTek LLC"
+  subtitle:     "Glimpse into the Future"
   cover_image:  blog-cover.jpg
   logo:         logo.png
 
@@ -20,19 +20,19 @@ inc:
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
+    shortname:  tralahm
 
   # Sharing settings
   sharing:
     twitter:    true
     facebook:   true
-    gplus:      false
-    hn:         false
+    gplus:      true
+    hn:         true
 
 
  # Analytics
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
+    google: true # Add tracking code in _includes/_google-analytics.html
 
 
   # Google Fonts
@@ -93,7 +93,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  syntax_highlighter: coderay
 
 redcloth:
   hard_breaks: true
