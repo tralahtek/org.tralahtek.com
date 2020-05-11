@@ -9,11 +9,11 @@ inc:
   company:      TralahTek LLC
   url:          https://tralahtek.com/
   twitter:      TralahM
-  about_link:   https://tralahtek.com/about/
+  about_link:   /about/
 
   # Product Information
-  product_link: https://tralahtek.com/
-  tagline:      "Get a modern blog for your company"
+  product_link: /products/
+  tagline:      "Get Started with Data Science for your Business"
 
   # Comments
   disqus:
@@ -42,9 +42,21 @@ inc:
 plugins:
     - jekyll-assets
     - jekyll-paginate
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-include-cache
+whitelist:
+    - jekyll-assets
+    - jekyll-paginate
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-include-cache
 include:
     - .htaccess
-    - assets/*
+    - assets
+    - _pages
 exclude:
     - README*
 timezone:    Africa/Nairobi
@@ -56,13 +68,14 @@ limit_posts: 0
 # highlighter:    pygments
 
 
-permalink:     /:categories/:year/:month/:day/:title/
-paginate_path: 'page:num'
+permalink:     /:categories/:title/
+paginate_path: /page:num/
 paginate: 10
 
 markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
+markdown_ext:  markdown,mkdown,mkd,mkdn,md
 textile_ext:   textile
+highlighter: rouge
 
 excerpt_separator: "<!-- more -->"
 
@@ -87,16 +100,23 @@ redcarpet:
 
 kramdown:
   auto_ids: true
+  input: GFM
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  syntax_highlighter: coderay
+  enable_coderay: false
 
 redcloth:
   hard_breaks: true
 
 #
+# Sass dirs
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
 assets:
@@ -112,3 +132,30 @@ assets:
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
+
+defaults:
+    # _posts
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            layout: post
+            author_profile: true
+            read_time: true
+            comments:  true
+            share: true
+            related: true
+            toc: true
+            toc_label: "Contents"
+
+    # _pages
+    -
+        scope:
+            path: ""
+            type: pages
+        values:
+            layout: page
+            author_profile: true
+            share: true
+
