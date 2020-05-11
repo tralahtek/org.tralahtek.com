@@ -6,11 +6,9 @@ inc:
   logo:         logo.png
 
   # Company information
-  company:      TralahTek
+  company:      TralahTek LLC
   url:          https://tralahtek.com/
-  facebook:     ""
-  twitter:      tralahtek
-  gplus:        '101183822199340201470'
+  twitter:      TralahM
   about_link:   https://tralahtek.com/about/
 
   # Product Information
