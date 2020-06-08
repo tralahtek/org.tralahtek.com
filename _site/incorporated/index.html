@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jekyll Incorporated Features &mdash; TralahTek LLC</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/assets/main-af5967b81acb8b9261507eda0d8a1301bdc0b97583469e74befe808b578f7991.css">
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
+    <link
+        rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="TralahTek LLC" />
+    <meta name="title" content="Jekyll Incorporated Features ">
+    <link rel="canonical" href="/incorporated/">
+    
+    <link rel="author" href="https://plus.google.com/100687498195339762535">
+    <meta property="og:title" content="Jekyll Incorporated Features "/>
+    <meta property="og:url" content="/incorporated/"/>
+    
+    <meta property="og:image" content="/images/blog-cover.jpg"/>
+    
+    <meta property="og:image" content="/images/logo.png"/>
+    
+    
+    <meta property="og:description" content="Incorporated provides a great typography, responsive design, author details, semantic markup and more."/>
+    <meta name="description" content="Incorporated provides a great typography, responsive design, author details, semantic markup and more."/>
+    
+    <meta property="og:site_name" content="TralahTek LLC">
+    <meta property="twitter:site_name" content="TralahTek LLC">
+</head>
+
+
+<body>
+    <section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="/">
+                <img src="/images/logo.png" alt="Inc">
+            </a>
+            <a href="/" class="home">Blog</a>
+            <a href="/products/">Product</a>
+            <a href="/about/">About</a>
+        </nav>
+        <nav class="tagline">
+            <span>Get Started with Data Science for your Business</span>
+            <a href="/products/" class="btn btn-outline">Learn More</a>
+        </nav>
+    </header>
+</section>
+
+
+
+
+<div class="article-cover">
+    <div>
+        <img src="/images/blog-cover.jpg" class="image">
+    </div>
+</div>
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="" title="Karri Saarinen" target="_blank">Karri Saarinen</a></address> &mdash;
+                <time pubdate datetime="2013-08-October" title="October 08, 2013">October 08, 2013</time>
+            </div>
+            <h1 class="title">Jekyll Incorporated Features</h1>
+            <h2 class="subtitle">What's in the box</h2>
+        </header>
+
+        <section>
+            <p>Incorporated provides a great typography, responsive design, author details, semantic markup and more.</p>
+
+<p>You can set customize post covers, and other things directly in the post front matter:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+
+<span class="na">title</span><span class="pi">:</span> <span class="s">Jekyll Incorporated Features</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s2">"</span><span class="s">What's</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">box"</span>
+
+<span class="c1"># Setup post cover image in /images/</span>
+<span class="na">cover_image</span><span class="pi">:</span> <span class="s">blog-cover.jpg</span>
+
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Incorporated</span><span class="nv"> </span><span class="s">provides</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">great</span><span class="nv"> </span><span class="s">typography,</span><span class="nv"> </span><span class="s">responsive</span><span class="nv"> </span><span class="s">design,</span><span class="nv"> </span><span class="s">author</span><span class="nv"> </span><span class="s">details,</span><span class="nv"> </span><span class="s">semantic</span><span class="nv"> </span><span class="s">markup</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">more."</span>
+
+<span class="c1"># Author details, including Google Plus authorship</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Karri Saarinen</span>
+  <span class="na">twitter</span><span class="pi">:</span> <span class="s">karrisaarinen</span>
+  <span class="na">gplus</span><span class="pi">:</span> <span class="s">100687498195339762535</span> 
+  <span class="na">bio</span><span class="pi">:</span> <span class="s">Co-founder, Design</span>
+  <span class="na">image</span><span class="pi">:</span> <span class="s">ks.jpg</span>
+  
+<span class="c1"># Keep it as draft, not published in index.html or feed.xml</span>
+<span class="na">draft</span><span class="pi">:</span> <span class="no">false</span></code></pre></figure>
+
+<h4 id="configurable--code-snipped-highlighting">Configurable &amp; Code Snipped Highlighting</h4>
+
+<p>/assets/stylesheets/main.scss:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="cm">/* Bodytext font */</span>
+<span class="nv">$font</span><span class="p">:</span> <span class="s2">"Droid Sans"</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+
+<span class="cm">/* Font for headings */</span>
+<span class="nv">$fontheadings</span><span class="p">:</span> <span class="s2">"Droid Sans"</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+
+<span class="cm">/* Text colors */</span>
+<span class="nv">$text</span><span class="p">:</span> <span class="mh">#21272d</span><span class="p">;</span>
+<span class="nv">$textmuted</span><span class="p">:</span> <span class="mh">#848484</span><span class="p">;</span>
+<span class="nv">$accent</span><span class="p">:</span> <span class="mh">#2077b2</span><span class="p">;</span>    </code></pre></figure>
+
+<p>config.yml:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">inc</span><span class="pi">:</span>
+  <span class="c1"># Blog Information</span>
+  <span class="na">title</span><span class="pi">:</span>        <span class="s2">"</span><span class="s">Jekyll</span><span class="nv"> </span><span class="s">Incorporated"</span>
+  <span class="na">subtitle</span><span class="pi">:</span>     <span class="s2">"</span><span class="s">Modern</span><span class="nv"> </span><span class="s">Jekyll</span><span class="nv"> </span><span class="s">based</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">companies"</span>
+  <span class="na">cover_image</span><span class="pi">:</span>  <span class="s">blog-cover.jpg</span>
+  
+  <span class="c1"># Company information</span>
+  <span class="na">company</span><span class="pi">:</span>      <span class="s">Incorporated</span>
+  <span class="na">url</span><span class="pi">:</span>          <span class="s">http://incorporated.sendtoinc.com/</span>
+  <span class="na">facebook</span><span class="pi">:</span>     <span class="s">sendtoinc</span>
+  <span class="na">twitter</span><span class="pi">:</span>      <span class="s">sendtoinc</span>
+  <span class="na">about_link</span><span class="pi">:</span>   <span class="s">https://sendtoinc.com/about/</span>
+  
+  <span class="c1"># Product Information</span>
+  <span class="na">product_link</span><span class="pi">:</span> <span class="s">http://incorporated.sendtoinc.com/</span>
+  <span class="na">tagline</span><span class="pi">:</span>      <span class="s2">"</span><span class="s">Get</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">modern</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">company"</span>
+  
+  <span class="c1"># Comments</span>
+  <span class="na">disqus</span><span class="pi">:</span>
+    <span class="c1"># Eg. "exampleblog" Set to false to disable comments</span>
+    <span class="na">shortname</span><span class="pi">:</span>  <span class="no">false</span>
+  
+  
+  <span class="c1"># Sharing settings</span>
+  <span class="na">sharing</span><span class="pi">:</span>
+    <span class="na">twitter</span><span class="pi">:</span>    <span class="no">false</span>
+    <span class="na">facebook</span><span class="pi">:</span>   <span class="no">false</span>
+    <span class="na">gplus</span><span class="pi">:</span>      <span class="no">false</span>
+    <span class="na">hn</span><span class="pi">:</span>         <span class="no">false</span>
+    
+  
+ <span class="c1"># Analytics     </span>
+  <span class="na">analytics</span><span class="pi">:</span>
+    <span class="na">google</span><span class="pi">:</span> 
+      <span class="c1"># eg. 'UA-123-12'</span>
+      <span class="na">id</span><span class="pi">:</span>       <span class="no">false</span>    </code></pre></figure>
+
+<p><strong>Zoomable images</strong></p>
+<div class="full zoomable"><img src="/images/incorporated.jpg" /></div>
+
+<p><strong>Awesome quotes</strong></p>
+<blockquote>
+  <p>“Effective companies tend to communicate more, their people are curious and they have opinions”</p>
+</blockquote>
+
+<p>Stay tuned for updates.</p>
+
+            
+<div class="social">
+    <div>
+        <a href="https://twitter.com/share" class="twitter-share-button"  data-text="Jekyll Incorporated Features" data-related="TralahM">Tweet</a>
+    </div>
+    
+    
+    <div>
+        <div class="fb-like" data-width="150" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+    </div>
+    
+    
+    <div>
+        <div class="g-plusone" data-size="medium"></div>
+    </div>
+    
+    
+    
+    <div>
+        <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
+    </div>
+    
+</div>
+
+        </section>
+
+        <footer>
+            <address>
+               <img src="/images/ks.png">
+                <p>Written by <strong><a rel="author" href="https://twitter.com/karrisaarinen" title="" target="_blank">Karri Saarinen</a></strong><br>
+                <span class="muted">Co-founder, Design</span>
+                </p>
+            </address>
+
+        </footer>
+
+        
+        <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tralahm'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+        </section>
+        
+    </div>
+</article>
+
+
+    <footer class="site-footer">
+    <div class="container">
+        &copy; 2020
+
+        <nav>
+            <a href="https://tralahtek.com/">TralahTek LLC</a> &middot;
+            <a href="/">Blog</a> &middot;
+            <a href="/products/">Product</a> &middot; 
+            <a href="/about/">About</a>
+        </nav>
+
+        <nav class="social">
+            
+            <a href="https://twitter.com/TralahM" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+            
+            <a href="https://github.com/TralahM" title="Follow on Github" target="_blank">
+                <i class="fa fa-github"aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/main-ee3c953c1f37a18ec394da6355ae25ab35b0883892a178622377e02a4d5f91ee.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=253595308025739";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>
+    (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = '//hnbutton.appspot.com/static/hn.min.js';
+        s.parentNode.insertBefore(g, s);
+    }(document, 'script'));
+</script>
+
+  <!--google analytics tracking code here-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137830513-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137830513-1');
+</script>
+
+
+
+
+
+</body>
+</html>

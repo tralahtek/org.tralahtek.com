@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'jekyll-include-cache'
+gem 'jekyll-gist'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'sprockets',"~> 3.7"
+gem 'maruku'
+gem 'rake'
+gem 'sass'
+gem 'uglifier'
+gem 'github-pages'
