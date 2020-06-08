@@ -40,6 +40,13 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
+gems:
+    - jekyll-assets
+    - jekyll-paginate
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-include-cache
 plugins:
     - jekyll-assets
     - jekyll-paginate
