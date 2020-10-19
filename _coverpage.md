@@ -1,14 +1,14 @@
 <!-- _coverpage.md -->
 
 <!-- logo -->
-![logo](images/logo_icon.svg)
+<!-- ![logo](images/logo_icon.svg) -->
 # TralahTek Software Foundation
 
 [GitHub](https://github.com/tralahtek/)
 [Get Started](#quick-start)
 
 <!-- background image -->
-%% ![](images/bg.png)
+<!-- ![](images/bg.png) -->
 
 <!-- background color -->
-![color](#005eff)
+<!-- ![color](#005eff) -->
