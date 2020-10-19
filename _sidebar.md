@@ -8,7 +8,7 @@
   * [Cloud](./tutorials/cloud/index)
   * [Java](./tutorials/java/index)
 
-* [About](./about/index)
+* [About Us](./about/index)
 
-* [Contact](./contact/index)
+* [Contact Us](./contact/index)
 

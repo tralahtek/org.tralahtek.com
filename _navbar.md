@@ -1,4 +1,6 @@
 <!-- _navbar.md -->
 
 * [Home](/)
-* [About](about/index.md)
+* About
+  * [About Us](about/index.md)
+  * [Contributing](about/contributing.md)
