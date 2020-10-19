@@ -16,9 +16,35 @@
       el: "#app",
       repo: 'https://github.com/tralahtek/org.tralahtek.com/tree/docsify',
       loadSidebar: true,
-      loadNavbar: true
-    }
+      loadNavbar: true,
+      logo:"/images/logo_icon.svg",
+      disqus:"TralahM",
+      autoFooter:{
+        name: 'TralahTek',
+        url: 'https://tralahm.tralahtek.com',
+        copyYear:'',
+        policy:'',
+        terms:''
+      }
+    };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <!-- unpkg.com -->
+  <script src="https://unpkg.com/docsify-sidebarfooter"></script>
+
+  <!-- jsDelivr -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebarfooter"></script>
+
+  <!-- locally -->
+  <script src="docsify-sidebarfooter.js"></script>
 </body>
 </html>
