@@ -8,7 +8,7 @@
 [Get Started](#quick-start)
 
 <!-- background image -->
-<!-- ![](images/bg.png) -->
+![background](images/bg.jpg)
 
 <!-- background color -->
 <!-- ![color](#111111) -->
