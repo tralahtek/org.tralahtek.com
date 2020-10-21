@@ -1,11 +1,7 @@
 <!-- _coverpage.md -->
-
-<!-- background image -->
-![](./images/bg.jpg)
-
-# TralahTek Software Foundation
+<div id="coverpage">
+  <h1 style="color:#005eff;">TralahTek Software Foundation</h1>
 
 [GitHub](https://github.com/tralahtek/)
-[Get Started](#quick-start)
-<!-- background color -->
-<!-- ![color](#111111) -->
+[Get Started](#)
+</div>
